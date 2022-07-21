@@ -5,26 +5,34 @@ Basic library website & API built with Django & Djano REST Framework (DRF)
 ### Installation
  - `git clone https://github.com/kevinbowen777/djapi-library.git`
  - `cd djapi-library`
+ - `poetry install`
  - `poetry shell`
  - `python manage.py runserver`
- - Open browser to http://127.0.0.1:8000`
-
+ - `python manage.py migrate`
+ - `python manage.py createsuperuser`
+ - Open browser to http://127.0.0.1:8000
+ 
+#### Local URLs
+ - http:/127.0.0.1:8000
+ - http:/127.0.0.1:8000/admin/
+ - http:/127.0.0.1:8000/api/
+ - http:/127.0.0.1:8000/api/?format=json
 
 ---
 ## Features
- - TBD
+ - Basic browseable API
+ - Admin management of books
 
 ### Live Demo on Heroku:
- - TBD
+ - [kbowen-djapi-library](https://kbowen-djapi-library.herokuapp.com/)
+ - [kbowen-djapi-library API Endpoint](https://kbowen-djapi-library.herokuapp.com/api)
+ - [kbowen-djapi-library API JSON](http://kbowen-djapi-library/api/?format=json)
+
 ### Docker Container Image:
-
  - N/A
----
-
-
 
 ---
-[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/kevinbowen777/djapi-library/blob/master/LICENSE)
+![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/kevinbowen777/djapi-library/blob/master/LICENSE)
 ---
 ### Reporting Bugs
 
