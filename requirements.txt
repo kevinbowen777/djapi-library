@@ -11,6 +11,7 @@ djangorestframework @ file:///home/kbowen/.cache/pypoetry/artifacts/7a/1a/9f/2d5
 environs @ file:///home/kbowen/.cache/pypoetry/artifacts/03/3a/2c/b1c48821c153bd40186099cd1e72d6a8b15023ae6caa88f771d6055c32/environs-9.5.0-py2.py3-none-any.whl
 filelock @ file:///home/kbowen/.cache/pypoetry/artifacts/e2/09/10/0199889122725c8bd318535864627bba7fea96df1fbeafac0ca3187741/filelock-3.7.1-py3-none-any.whl
 flake8 @ file:///home/kbowen/.cache/pypoetry/artifacts/6b/d8/67/6516837c645c57af9cad7b290e1e6cbe92a126641fa84a5dde6495f3c3/flake8-4.0.1-py2.py3-none-any.whl
+gunicorn @ file:///home/kbowen/.cache/pypoetry/artifacts/9f/68/9f/f1166be9473b4fe2cc59c98fac616db1f94b18662b9055d1ac940374e3/gunicorn-20.1.0-py3-none-any.whl
 identify @ file:///home/kbowen/.cache/pypoetry/artifacts/93/d4/36/f1aab01ba96dbd62c8f6e8b3e11a20754e35f46984b9801fcc57616502/identify-2.5.2-py2.py3-none-any.whl
 marshmallow @ file:///home/kbowen/.cache/pypoetry/artifacts/5f/e6/b6/f055d10c968330bce322b0bc58869377550bc113cefc70a8e9272f702b/marshmallow-3.17.0-py3-none-any.whl
 mccabe @ file:///home/kbowen/.cache/pypoetry/artifacts/a3/d3/68/f7f7115194f6fe8c487def3afa3b089a428f90650cf1b7be71afa83d12/mccabe-0.6.1-py2.py3-none-any.whl
@@ -31,3 +32,4 @@ sqlparse @ file:///home/kbowen/.cache/pypoetry/artifacts/10/f5/22/c9c991a71e27c4
 toml @ file:///home/kbowen/.cache/pypoetry/artifacts/51/ac/24/674da558495229c57c3d2333cb23e24aac7aadf723ced29e2cc41a9e6e/toml-0.10.2-py2.py3-none-any.whl
 tomli @ file:///home/kbowen/.cache/pypoetry/artifacts/62/12/b6/6db9ebb9c8e1a6c5aa8a92ae73098d8119816b5e8507490916621bc305/tomli-2.0.1-py3-none-any.whl
 virtualenv @ file:///home/kbowen/.cache/pypoetry/artifacts/56/2a/b5/6a151d7d8782c6eb2c68f84108847ed28f4231ccc9f246183d5668eef0/virtualenv-20.15.1-py2.py3-none-any.whl
+whitenoise @ file:///home/kbowen/.cache/pypoetry/artifacts/39/03/50/ad1176a013bab2448267984096fb10e586d64f3dbc5da1ea1bf59171ec/whitenoise-6.2.0-py3-none-any.whl
