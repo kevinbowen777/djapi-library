@@ -66,7 +66,11 @@ WSGI_APPLICATION = "config.wsgi.application"
 
 
 # Database
-DATABASES = {"default": env.dj_db_url("DATABASE_URL")}
+DATABASES = {
+    "default": env.dj_db_url(
+        "DATABASE_URL", default="postgres://postgres@db/postgres"
+    )
+}
 
 # Password validation
 AUTH_PASSWORD_VALIDATORS = [
