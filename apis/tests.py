@@ -24,3 +24,11 @@ class APITests(APITestCase):
         self.assertEqual(response.status_code, status.HTTP_200_OK)
         self.assertEqual(Book.objects.count(), 1)
         self.assertContains(response, self.book)
+
+    def test_api_detailview(self):
+        response = self.client.get(
+            reverse("book_detail", kwargs={"pk": self.book.id}), format="json"
+        )
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
+        self.assertEqual(Book.objects.count(), 1)
+        self.assertContains(response, "Build web APIs")
