@@ -29,8 +29,9 @@ INSTALLED_APPS = [
     # Third party packages
     "rest_framework",
     # Local
-    "books.apps.BooksConfig",
+    "accounts.apps.AccountsConfig",
     "apis.apps.ApisConfig",
+    "books.apps.BooksConfig",
 ]
 
 MIDDLEWARE = [
@@ -107,3 +108,5 @@ STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 # Default primary key field type
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+AUTH_USER_MODEL = "accounts.CustomUser"
