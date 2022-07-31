@@ -12,11 +12,18 @@ Basic library website & API built with Django & Djano REST Framework (DRF)
  - `python manage.py createsuperuser`
  - Open browser to http://127.0.0.1:8000
  
-#### Local URLs
- - http:/127.0.0.1:8000
- - http:/127.0.0.1:8000/admin/
- - http:/127.0.0.1:8000/api/
- - http:/127.0.0.1:8000/api/?format=json
+---
+### URLs
+ - Log In endpoint:
+    http://127.0.0.1:8000/api/v1/dj-rest-auth/login/
+ - Log Out endpoint:
+    http://127.0.0.1:8000/api/v1/dj-rest-auth/logout/
+ - Password reset:
+    http://127.0.0.1:8000/api/v1/dj-rest-auth/password/reset
+ - Password reset confirmation:
+    http://127.0.0.1:8000/api/v1/dj-rest-auth/password/reset/confirm
+ - User registration endpoint:
+    http://127.0.0.1:8000/api/v1/dj-rest-auth/registration/
 
 ---
 ## Features
