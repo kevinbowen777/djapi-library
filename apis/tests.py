@@ -1,4 +1,5 @@
 from books.models import Book
+from django.contrib.auth import get_user_model
 from django.urls import reverse
 from rest_framework import status
 from rest_framework.test import APITestCase
@@ -17,14 +18,24 @@ class APITests(APITestCase):
             price="29.99",
             isbn="9781735467221",
         )
+        cls.user = get_user_model().objects.create_user(
+            username="bookreader",
+            password="T3stP@s5123",
+        )
 
     def test_api_listview(self):
+        self.client.login(username="bookreader", password="T3stP@s5123")
         response = self.client.get(reverse("book_list"))
         self.assertEqual(response.status_code, status.HTTP_200_OK)
         self.assertEqual(Book.objects.count(), 1)
         self.assertContains(response, self.book)
 
+    def test_api_logged_out_deny_listview_access(self):
+        response = self.client.get(reverse("book_list"))
+        self.assertEqual(response.status_code, status.HTTP_403_FORBIDDEN)
+
     def test_api_detailview(self):
+        self.client.login(username="bookreader", password="T3stP@s5123")
         response = self.client.get(
             reverse("book_detail", kwargs={"pk": self.book.id}), format="json"
         )
