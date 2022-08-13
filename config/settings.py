@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     "allauth",
     "allauth.account",
     "allauth.socialaccount",
+    "allauth.socialaccount.providers.github",
     "dj_rest_auth",
     "dj_rest_auth.registration",
     "drf_spectacular",
@@ -44,6 +45,7 @@ INSTALLED_APPS = [
     "accounts.apps.AccountsConfig",
     "apis.apps.ApisConfig",
     "books.apps.BooksConfig",
+    "pages.apps.PagesConfig",
 ]
 
 MIDDLEWARE = [
@@ -144,9 +146,15 @@ CORS_ORIGIN_WHITELIST = (
 
 CSRF_TRUSTED_ORIGINS = ["http://localhost:3000"]
 
-EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
-
 SITE_ID = 1
+LOGIN_REDIRECT_URL = "home"
+ACCOUNT_LOGOUT_REDIRECT_URL = "home"
+AUTHENTICATION_BACKENDS = (
+    "django.contrib.auth.backends.ModelBackend",
+    "allauth.account.auth_backends.AuthenticationBackend",
+)
+ACCOUNT_EMAIL_VERIFICATION = "none"
+EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 
 SPECTACULAR_SETTINGS = {
     "TITLE": "djapi-library",
