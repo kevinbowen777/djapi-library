@@ -1,5 +1,4 @@
 """Settings for djapi-library DRF API project """
-
 from pathlib import Path
 
 from environs import Env
@@ -28,6 +27,10 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "django.contrib.sites",
     # Third party packages
+    "bootstrap4",
+    "crispy_forms",
+    "django_countries",
+    "django_extensions",
     "rest_framework",
     "corsheaders",
     "rest_framework.authtoken",
@@ -150,3 +153,6 @@ SPECTACULAR_SETTINGS = {
     "DESCRIPTION": "Basic library website & API built with Django & DRF",
     "VERSION": "0.1.0",
 }
+
+# django-crispy-forms
+CRISPY_TEMPLATE_PACK = "bootstrap4"
