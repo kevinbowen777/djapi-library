@@ -1,13 +1,21 @@
-<h2>All Books</h2>
-{% for book in book_list %}
-<ul>
-  <li>Title: {{ book.title }}</li>
-  <li>Subtitle: {{ book.subtitle }}</li>
-  <li>Author: {{ book.author }}</li>
-  <li>Pages: {{ book.pages }}</li>
-  <li>Publisher: {{ book.publisher }}</li>
-  <li>Date of Publication: {{ book.pubdate }}</li>
-  <li>Price: {{ book.price }}</li>
-  <li>ISBN: {{ book.isbn }}</li>
-</ul>
-{% endfor %}
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+  <p>
+    <h2>All Books</h2>
+    {% for book in book_list %}
+      <ul>
+        <li>Title: {{ book.title }}</li>
+        <li>Subtitle: {{ book.subtitle }}</li>
+        <li>Author: {{ book.author }}</li>
+        <li>Pages: {{ book.pages }}</li>
+        <li>Publisher: {{ book.publisher }}</li>
+        <li>Date of Publication: {{ book.pubdate }}</li>
+        <li>Price: {{ book.price }}</li>
+        <li>ISBN: {{ book.isbn }}</li>
+      </ul>
+    {% endfor %}
+  </p>
+</div>
+{% endblock content %}
