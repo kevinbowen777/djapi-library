@@ -16,6 +16,7 @@ urlpatterns = [
     # User management
     path("accounts/", include("allauth.urls")),
     # Local apps
+    path("accounts/", include("accounts.urls")),
     path("", include("pages.urls")),
     path("api/v1/", include("apis.urls")),
     path("api-auth/", include("rest_framework.urls")),
