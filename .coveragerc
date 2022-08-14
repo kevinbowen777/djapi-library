@@ -1,5 +1,5 @@
 [run]
-include = accounts/*, apis/*, books/*, config/*
+include = accounts/*, apis/*, books/*, config/*, pages/*
 omit =
     */__init__.py,
     *admin.py,
