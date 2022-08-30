@@ -1,6 +1,14 @@
 ## djapi-library
 
-Basic library website & API built with Django & Djano REST Framework (DRF)
+<div align="center">
+
+  [![Status](https://img.shields.io/badge/status-active-success.svg)]() 
+  [![GitHub Issues](https://img.shields.io/github/issues/kevinbowen777/djapi-library.svg)](https://github.com/kevinbowen777/djapi-library/issues)
+  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+
+</div>
+
+ - Basic library website & API built with Django & Djano REST Framework (DRF)
 
 ### Installation
  - `git clone https://github.com/kevinbowen777/djapi-library.git`
@@ -48,8 +56,6 @@ Basic library website & API built with Django & Djano REST Framework (DRF)
 ### Docker Container Image:
  - N/A
 
----
-![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/kevinbowen777/djapi-library/blob/master/LICENSE)
 ---
 ### Reporting Bugs
 
