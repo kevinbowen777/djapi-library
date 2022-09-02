@@ -10,6 +10,16 @@
 
  - Basic library website & API built with Django & Djano REST Framework (DRF)
 
+---
+## Features
+ - Browseable Web API
+ - SwaggerUI & ReDoc API documentation
+ - User registration with email verification & social(GitHub) login
+ - Bootstrap4 & crispy-forms decorations
+ - Customizable user profiles with bio, profile picture & country flags
+ - Nox testing sessions (black, linting, pytest, coverage, Sphinx doc generation)
+
+---
 ### Installation
  - `git clone https://github.com/kevinbowen777/djapi-library.git`
  - `cd djapi-library`
@@ -44,17 +54,11 @@
     http://127.0.0.1:8000/api/schema/swagger-ui/
 
 ---
-## Features
- - Basic browseable API
- - Admin management of books
 
 ### Live Demo on Heroku:
  - [kbowen-djapi-library](https://kbowen-djapi-library.herokuapp.com/)
  - [kbowen-djapi-library API Endpoint](https://kbowen-djapi-library.herokuapp.com/api)
  - [kbowen-djapi-library API JSON](http://kbowen-djapi-library/api/?format=json)
-
-### Docker Container Image:
- - N/A
 
 ---
 ### Reporting Bugs
