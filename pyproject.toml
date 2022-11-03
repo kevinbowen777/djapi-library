@@ -69,7 +69,6 @@ django-countries = "^7.3.2"
 django-bootstrap4 = "^22.2"
 django-crispy-forms = "^1.14.0"
 django-extensions = "^3.2"
-cryptography = "38.0.1"
 
 [tool.poetry.dev-dependencies]
 black = "^22.6.0"
