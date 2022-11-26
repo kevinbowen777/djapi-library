@@ -72,7 +72,7 @@ django-extensions = "^3.2"
 
 [tool.poetry.dev-dependencies]
 black = "^22.6.0"
-flake8 = "^5.0.0"
+flake8 = "^6.0.0"
 pre-commit = "^2.20.0"
 coverage = {extras = ["toml"], version = "^6.4.3"}
 pytest-cov = "^4.0.0"
@@ -85,7 +85,6 @@ flake8-bandit = "^4.0.0"
 flake8-black = "^0.3.3"
 flake8-bugbear = "^22.7.1"
 flake8-docstrings = "^1.6.0"
-flake8-import-order = "^0.18.1"
 safety = "^2.1.1"
 ipython = "^8.4.0"
 friendly = "^0.7.0"
