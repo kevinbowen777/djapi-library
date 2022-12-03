@@ -94,6 +94,9 @@ pip-check = "^2.7"
 pip-audit = "^2.4.3"
 Sphinx = "^5.1.1"
 
+[tool.poetry.group.dev.dependencies]
+flake8-import-order = "^0.18.2"
+
 [tool.pytest.ini_options]
 DJANGO_SETTINGS_MODULE = "config.settings"
 python_files = ["tests.py", "test_*.py", "*_tests.py"]
