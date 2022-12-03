@@ -44,7 +44,6 @@ template_extensions = "html, txt, tex, email"
 [tool.coverage.report]
 show_missing = true
 
-
 [tool.poetry]
 name = "djapi-library"
 version = "0.1.0"
@@ -70,7 +69,7 @@ django-bootstrap4 = "^22.2"
 django-crispy-forms = "^1.14.0"
 django-extensions = "^3.2"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
 black = "^22.6.0"
 flake8 = "^6.0.0"
 pre-commit = "^2.20.0"
@@ -93,8 +92,6 @@ factory-boy = "3.0.1"
 pip-check = "^2.7"
 pip-audit = "^2.4.3"
 Sphinx = "^5.1.1"
-
-[tool.poetry.group.dev.dependencies]
 flake8-import-order = "^0.18.2"
 
 [tool.pytest.ini_options]
