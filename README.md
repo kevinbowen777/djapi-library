@@ -121,28 +121,28 @@ TBD
 ### Screenshots
 
 ### Home
-![Home](https://github.com/kevinbowen777/djapi-library/blob/master/images/djapi-library_home.png)
+![Home](images/djapi-library_home.png)
 
 ### Index
-![Message Index](https://github.com/kevinbowen777/djapi-library/blob/master/images/djapi-library_index.png)
+![Message Index](images/djapi-library_index.png)
 
 ### Profile Page
-![Profile Page](https://github.com/kevinbowen777/djapi-library/blob/master/images/djapi-library_profile-page.png)
+![Profile Page](images/djapi-library_profile-page.png)
 
 ### Login Page
-![Login Page](https://github.com/kevinbowen777/djapi-library/blob/master/images/djapi-library_sign-in.png)
+![Login Page](images/djapi-library_sign-in.png)
 
 ### Book List View
-![Book List View](https://github.com/kevinbowen777/djapi-library/blob/master/images/djapi-library_book-list-view.png)
+![Book List View](images/djapi-library_book-list-view.png)
 
 ### Swagger-UI
-![Swagger-UI](https://github.com/kevinbowen777/djapi-library/blob/master/images/djapi-library_swagger-ui.png)
+![Swagger-UI](images/djapi-library_swagger-ui.png)
 
 ### Redoc API page
-![Redoc API page](https://github.com/kevinbowen777/djapi-library/blob/master/images/djapi-library_redoc-tree.png)
+![Redoc API page](images/djapi-library_redoc-tree.png)
 
 ### Email Address management
-![Email Address management](https://github.com/kevinbowen777/djapi-library/blob/master/images/djapi-library_email-addresses.png)
+![Email Address management](images/djapi-library_email-addresses.png)
 
 ---
 
