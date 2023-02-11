@@ -67,7 +67,7 @@ django-crispy-forms = "^1.14.0"
 django-extensions = "^3.2"
 
 [tool.poetry.group.dev.dependencies]
-black = "^22.6.0"
+black = "^23.0.0"
 flake8 = "^6.0.0"
 pre-commit = "^3.0.0"
 coverage = {extras = ["toml"], version = "^7.0.0"}
@@ -81,7 +81,7 @@ flake8-bandit = "^4.0.0"
 flake8-black = "^0.3.3"
 flake8-bugbear = "^23.0.0"
 flake8-docstrings = "^1.6.0"
-safety = "^2.3.5"
+safety = "^2.3.4"
 ipython = "^8.4.0"
 friendly = "^0.7.0"
 colorama = "^0.4.5"
