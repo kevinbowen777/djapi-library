@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     # Third party packages
     "bootstrap4",
     "crispy_forms",
+    "crispy_bootstrap4",
     "django_countries",
     "django_extensions",
     "rest_framework",
@@ -215,6 +216,12 @@ SPECTACULAR_SETTINGS = {
 
 # django-crispy-forms
 CRISPY_TEMPLATE_PACK = "bootstrap4"
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
+CRISPY_CLASS_CONVERTERS = {
+    "textinput": "textinput textInput",
+    "fileinput": "fileinput fileUpload",
+    "passwordinput": "textinput textInput",
+}
 
 ADMINS = [("Kevin Bowen", "kevinbowen@protonmail.com")]
 MANAGERS = ADMINS
