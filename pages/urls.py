@@ -1,5 +1,6 @@
-from books.views import BookListView
 from django.urls import path
+
+from books.views import BookListView
 
 from .views import (
     AboutPageView,
@@ -7,7 +8,6 @@ from .views import (
     HomePageView,
     SuccessView,
 )
-
 
 urlpatterns = [
     path("about/", AboutPageView.as_view(), name="about"),

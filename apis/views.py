@@ -1,6 +1,7 @@
-from books.models import Book
 from django.contrib.auth import get_user_model
 from rest_framework import generics
+
+from books.models import Book
 
 from .permissions import IsAuthorOrReadOnly
 from .serializers import BookSerializer, UserSerializer
