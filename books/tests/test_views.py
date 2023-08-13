@@ -1,7 +1,7 @@
 from django.test import TestCase
 from django.urls import reverse
 
-from .models import Book
+from ..models import Book
 
 
 class BookTests(TestCase):
@@ -20,9 +20,7 @@ class BookTests(TestCase):
 
     def test_book_content(self):
         self.assertEqual(self.book.title, "Code Complete")
-        self.assertEqual(
-            self.book.subtitle, "A handbook of software construction"
-        )
+        self.assertEqual(self.book.subtitle, "A handbook of software construction")
         self.assertEqual(self.book.author, "Steve McConnell")
         self.assertEqual(self.book.pages, "952")
         self.assertEqual(self.book.publisher, "Microsoft Press")
