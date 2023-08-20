@@ -4,25 +4,31 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name='Book',
+            name="Book",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('title', models.CharField(max_length=250)),
-                ('subtitle', models.CharField(max_length=250)),
-                ('author', models.CharField(max_length=100)),
-                ('pages', models.IntegerField(help_text='Number of Pages')),
-                ('publisher', models.CharField(max_length=40)),
-                ('pubdate', models.DateField(help_text='Date Published')),
-                ('price', models.DecimalField(decimal_places=2, max_digits=6)),
-                ('isbn', models.CharField(max_length=13)),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("title", models.CharField(max_length=250)),
+                ("subtitle", models.CharField(max_length=250)),
+                ("author", models.CharField(max_length=100)),
+                ("pages", models.IntegerField(help_text="Number of Pages")),
+                ("publisher", models.CharField(max_length=40)),
+                ("pubdate", models.DateField(help_text="Date Published")),
+                ("price", models.DecimalField(decimal_places=2, max_digits=6)),
+                ("isbn", models.CharField(max_length=13)),
             ],
         ),
     ]
