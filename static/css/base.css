@@ -12,9 +12,9 @@ h2 a:hover {
   font-weight: 400;
 }
 
-.bookcover {
-  height: 300px;
-  width: auto;
+.jumbotron {
+  border-radius: 25px;
+  margin-top: 25px;
 }
 
 .profile_pic {
@@ -34,7 +34,7 @@ li.no-bullets {
   margin: 0; /* Remove margins */
 }
 
-.copyright {                                                                    
-  color: white;                                                                 
-  font-size: 70%;                                                               
-} 
+.copyright {
+  color: white;
+  font-size: 60%;
+}

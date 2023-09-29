@@ -13,7 +13,7 @@ SECRET_KEY = env.str("SECRET_KEY")
 
 DEBUG = env.bool("DJANGO_DEBUG", default=False)
 
-ALLOWED_HOSTS = ["djapi-library", "localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ["djapi-library.cool", "localhost", "127.0.0.1"]
 
 # Application definition
 
