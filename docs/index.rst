@@ -15,7 +15,7 @@ djapi-library
    :backlinks: top
    :depth: 2
 
-A basic library website & API built with Django 4.2.x & Django REST Framework (DRF) 3.13.x
+A basic library website & API built with Django 5.0.x & Django REST Framework (DRF) 3.13.x
 
 Features
 --------
