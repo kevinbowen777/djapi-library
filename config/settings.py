@@ -1,4 +1,5 @@
-"""Settings for djapi-library DRF API project """
+"""Settings for djapi-library DRF API project"""
+
 from pathlib import Path
 
 from environs import Env

@@ -1,4 +1,5 @@
 """Nox sessions - djapi-library."""
+
 import tempfile
 
 import nox
