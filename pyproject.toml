@@ -15,7 +15,13 @@ homepage = "https://github.com/kevinbowen777/djapi-library.git"
 repository = "https://github.com/kevinbowen777/djapi-library.git"
 documentation = "file:///docs/index.rst"
 
-keywords = ["api", "django", "djangorestframework", "library", "web-application"]
+keywords = [
+    "api",
+    "django",
+    "djangorestframework",
+    "library",
+    "web-application",
+]
 
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -36,19 +42,19 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.10"
-Django = "5.0.2"
-djangorestframework = "3.14.0"
+Django = "5.0.3"
+djangorestframework = "3.15.0"
+drf-spectacular = "^0.27.1"
 
 django-allauth = ">=0.60.0, < 0.70"
 environs = { version = "^10", extras = ["django"] }
+dj-rest-auth = "^5.0"
 django-extensions = "^3.2"
 whitenoise = "^6.1.0"
 psycopg2-binary = "^2.9.5"
 Pillow = "^10.0"
 gunicorn = "^21.0"
-dj-rest-auth = "^5.0"
 django-cors-headers = "^4.0"
-drf-spectacular = "^0.26.0"
 crispy-bootstrap4 = "^2024.0"
 django-crispy-forms = "^2.0"
 django-countries = "^7.3.2"
@@ -82,7 +88,13 @@ djangorestframework-types = "^0.8.0"
 [tool.coverage.run]
 branch = true
 dynamic_context = "test_function"
-source = ["accounts", "apis", "books", "config", "pages"]
+source = [
+    "accounts",
+    "apis",
+    "books",
+    "config",
+    "pages",
+]
 omit = [
     "conftest.py",
     "manage.py",
@@ -120,7 +132,13 @@ preserve_blank_lines = true
 
 [tool.pyright]
 # See: https://github.com/microsoft/pyright/blob/main/docs/configuration.md
-include = ["accounts", "apis", "books", "config", "pages"]
+include = [
+    "accounts",
+    "apis",
+    "books",
+    "config",
+    "pages",
+]
 exclude = [
     "**/tests",
     "**/__pycache__",
