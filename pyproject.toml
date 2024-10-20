@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "djapi-library"
-version = "0.3.0"
+version = "0.3.1"
 description = "Basic library website & API built with Django & DRF"
 authors = [
     "Kevin Bowen <kevin.bowen@gmail.com>",
@@ -37,6 +37,7 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
     "Topic :: Internet :: WWW/HTTP",
 ]
 
@@ -148,7 +149,7 @@ ignore = ["docs/_build"]
 defineConstant = { DEBUG = true }
 stubPath = ""
 # The following may need to be modified when collaborating with others
-venv = "djapi-library-tuqoXyCR-py3.12"
+venv = "djapi-library-tuqoXyCR-py3.13"
 venvPath = "../../../venvs"
 # More portable venv config
 # venvPath = "."
@@ -170,11 +171,11 @@ reportUnnecessaryCast = "warning"
 reportUnnecessaryComparison = "error"
 reportUnnecessaryTypeIgnoreComment = "warning"
 
-pythonVersion = "3.12"
+pythonVersion = "3.13"
 pythonPlatform = "Linux"
 
 executionEnvironments = [
-  { root = ".", pythonVersion = "3.12", extraPaths = [ "accounts", "apis", "books", "config", "pages"] },
+  { root = ".", pythonVersion = "3.13", extraPaths = [ "accounts", "apis", "books", "config", "pages"] },
 ]
 
 [tool.pytest.ini_options]
@@ -197,8 +198,8 @@ unsafe-fixes = false
 line-length = 88
 indent-width = 4
 
-# Assume Python 3.12.x
-target-version = "py312"
+# Assume Python 3.13.x
+target-version = "py313"
 
 # Exclude a variety of commonly ignored directories.
 exclude = [
