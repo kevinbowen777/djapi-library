@@ -55,7 +55,7 @@ Project Information
 
    testing
    create_new_users
-   create_new_books
+   create_book_list
 
 .. toctree::
    :caption: Reference
