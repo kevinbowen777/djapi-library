@@ -1,7 +1,7 @@
 djapi-library
 =============
 
-The djapi-library_ API is built using the Django 5.1.x and Django REST Framework (DRF) 3.15.x and is part of the collection of `Web Framework Projects`_ .
+The djapi-library_ API is built using the Django 5.2.x and Django REST Framework (DRF) 3.16.x and is part of the collection of `Web Framework Projects`_ .
 
 .. _djapi-library: https://github.com/kevinbowen777/djapi-library
 .. _Web Framework Projects: https://github.com/kevinbowen777/web-project-index
