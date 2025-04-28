@@ -89,8 +89,8 @@ def audit(session):
         "pip-audit",
         "--desc",
         "--aliases",
-        "--ignore-vuln",
-        "PYSEC-2025-14",
+        # "--ignore-vuln",
+        # "PYSEC-2025-14",
     )
 
 
