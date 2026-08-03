@@ -9,7 +9,7 @@
 
 </div>
 
-- A basic library website & API built with Django 5.2.x & Django REST Framework (DRF) 3.16.x
+- A basic library website & API built with Django 6.x & Django REST Framework (DRF) 3.17.x
 
 ### Table of Contents
 
