@@ -27,6 +27,50 @@ with advance notice in the **Deprecations** section of releases.
 
 .. towncrier release notes start
 
+djapi-library 0.3.6 (2026-09-13)
+================================
+
+Contributor-facing changes
+--------------------------
+
+-  (`#576 <https://github.com/kevinbowen777/djapi-library/issues/576>`_): Initial zizmor remediation. Pin GitHub actions to hashes.
+
+-  (`#579 <https://github.com/kevinbowen777/djapi-library/issues/579>`_): Update nox to 2026.8.17
+
+-  (`#579 <https://github.com/kevinbowen777/djapi-library/issues/579>`_): Update gunicorn to 26.1.0
+
+-  (`#579 <https://github.com/kevinbowen777/djapi-library/issues/579>`_): Update testing to Python 3.14.7, 3.13.15, and 3.12.14
+
+-  (`#579 <https://github.com/kevinbowen777/djapi-library/issues/579>`_): Update django-debug-toolbar to 7.1.1
+
+-  (`#584 <https://github.com/kevinbowen777/djapi-library/issues/584>`_): Update djlint to 1.46.1
+
+-  (`#584 <https://github.com/kevinbowen777/djapi-library/issues/584>`_): Update towncrier to 26.9.0
+
+-  (`#584 <https://github.com/kevinbowen777/djapi-library/issues/584>`_): Update django-countries to 9.1.0
+
+-  (`#584 <https://github.com/kevinbowen777/djapi-library/issues/584>`_): Update psycopg to 3.3.5
+
+-  (`#584 <https://github.com/kevinbowen777/djapi-library/issues/584>`_): Update django-allauth to 65.19.2
+
+-  (`#584 <https://github.com/kevinbowen777/djapi-library/issues/584>`_): Update django-debug-toolbar to 8.0.0
+
+-  (`#584 <https://github.com/kevinbowen777/djapi-library/issues/584>`_): Upgrade environs to 15.2.0
+
+-  (`#584 <https://github.com/kevinbowen777/djapi-library/issues/584>`_): Upgrade gunicorn to 26.2.0
+
+-  (`#585 <https://github.com/kevinbowen777/djapi-library/issues/585>`_): Replace master with main in static gh action
+
+-  (`#586 <https://github.com/kevinbowen777/djapi-library/issues/586>`_): Upgrade GitHub actions to latest versions
+
+
+New features
+------------
+
+-  (`#584 <https://github.com/kevinbowen777/djapi-library/issues/584>`_): Upgrade Django to 6.1.1
+
+-  (`#584 <https://github.com/kevinbowen777/djapi-library/issues/584>`_): Upgrade djangorestframework to 3.18.1
+
 djapi-library 0.3.5 (2026-08-03)
 ================================
 
