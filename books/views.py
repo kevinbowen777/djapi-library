@@ -7,4 +7,5 @@ class BookListView(ListView):
     model = Book
     template_name = "book_list.html"
 
+    ordering = ["title"]
     paginate_by = 2
