@@ -100,7 +100,7 @@ DATABASES = {
         "USER": env.str("POSTGRES_USER", default="fakeuser"),
         "PASSWORD": env.str("POSTGRES_PASSWORD", "password"),
         "HOST": env.str("POSTGRES_HOST", "db"),
-        "PORT": env.int("POSTGRES_PORT", "5432"),
+        "PORT": env.int("POSTGRES_PORT", 5432),
     }
 }
 
@@ -127,9 +127,7 @@ TIME_ZONE = "America/Vancouver"
 
 USE_I18N = True
 
-
 USE_TZ = True
-
 
 # Static files (CSS, JavaScript, Images)
 STATIC_URL = "/static/"
@@ -171,7 +169,7 @@ REST_FRAMEWORK = {
 SPECTACULAR_SETTINGS = {
     "TITLE": "djapi-library",
     "DESCRIPTION": "Basic library website & API built with Django & DRF",
-    "VERSION": "0.1.0",
+    "VERSION": "0.3.7",
 }
 
 # django-allauth config
