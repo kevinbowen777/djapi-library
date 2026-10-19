@@ -3,7 +3,7 @@
   <head><meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="index" title="Index" href="genindex.html"><link rel="search" title="Search" href="search.html"><link rel="next" title="Contributing" href="contributing.html"><link rel="prev" title="djapi-library" href="index.html">
+<link rel="index" title="Index" href="genindex.html"><link rel="search" title="Search" href="search.html"><link rel="next" title="Contributing" href="contributing.html"><link rel="prev" title="Add book list" href="testing/create_book_list.html">
         <link rel="prefetch" href="_static/django_24.png" as="image">
 
     <link rel="shortcut icon" href="_static/django_24.png"><!-- Generated with Sphinx 9.1.0 and Furo 2025.12.19 -->
@@ -194,8 +194,38 @@
   <input type="hidden" name="area" value="default">
 </form>
 <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
-  <p class="caption" role="heading"><span class="caption-text">Reference</span></p>
+  <p class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="installation/index.html">Installation</a><input aria-label="Toggle navigation of Installation" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="installation/local_installation.html">Local Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation/docker_installation.html">Docker Installation</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="configuration/index.html">Configuration</a><input aria-label="Toggle navigation of Configuration" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="configuration/env_setup.html">Environment Variable Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration/server_startup.html">Starting the Server</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="features/index.html">Features</a><input aria-label="Toggle navigation of Features" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="features/application_features.html">Application features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="features/dev_test_features.html">Dev &amp; Testing Features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="features/run_command_features.html">The run command script</a></li>
+<li class="toctree-l2"><a class="reference internal" href="features/django_debug_toolbar.html">django-debug-toolbar configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="features/package_index.html">Package Index</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="features/application_urls.html">Application URLs</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Testing</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="testing/index.html">Testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="testing/index.html#running-the-tests">Running the Tests</a></li>
+<li class="toctree-l1"><a class="reference internal" href="testing/create_new_users.html">Create new users</a></li>
+<li class="toctree-l1"><a class="reference internal" href="testing/create_book_list.html">Add book list</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Reference</span></p>
 <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="features/package_index.html">Package Index</a></li>
 <li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Changelog</a></li>
 <li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="license.html">License</a></li>
@@ -246,6 +276,26 @@
 the changelog. DO NOT commit any changes to this file.</p>
 <p>Backward incompatible (breaking) changes should only be introduced in major versions
 with advance notice in the <strong>Deprecations</strong> section of releases.</p>
+<section id="djapi-library-0-3-8-2026-10-18">
+<h2>djapi-library 0.3.8 (2026-10-18)<a class="headerlink" href="#djapi-library-0-3-8-2026-10-18" title="Link to this heading">¶</a></h2>
+<section id="security-updated">
+<h3>Security updated<a class="headerlink" href="#security-updated" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/589">#589</a>): Update pillow to 13.0.0</p></li>
+<li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/589">#589</a>): Update django-allauth to 65.20.0</p></li>
+<li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/589">#589</a>): Update djangorestframework</p></li>
+<li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/594">#594</a>): Update Django to 6.1.2</p></li>
+</ul>
+</section>
+<section id="contributor-facing-changes">
+<h3>Contributor-facing changes<a class="headerlink" href="#contributor-facing-changes" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/589">#589</a>): Update djlint to 1.46.4</p></li>
+<li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/589">#589</a>): Update testing for Python 3.14.8, 3.13.16, 3.12.15</p></li>
+<li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/589">#589</a>): Update ruff rules &amp; fix reported errors</p></li>
+</ul>
+</section>
+</section>
 <section id="djapi-library-0-3-7-2026-10-04">
 <h2>djapi-library 0.3.7 (2026-10-04)<a class="headerlink" href="#djapi-library-0-3-7-2026-10-04" title="Link to this heading">¶</a></h2>
 <section id="improved-documentation">
@@ -257,14 +307,14 @@ with advance notice in the <strong>Deprecations</strong> section of releases.</p
 <li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/538">#538</a>): Add CONTRIBUTING document</p></li>
 </ul>
 </section>
-<section id="security-updated">
-<h3>Security updated<a class="headerlink" href="#security-updated" title="Link to this heading">¶</a></h3>
+<section id="id13">
+<h3>Security updated<a class="headerlink" href="#id13" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/538">#538</a>): Update django-allauth to 65.19.7</p></li>
 </ul>
 </section>
-<section id="contributor-facing-changes">
-<h3>Contributor-facing changes<a class="headerlink" href="#contributor-facing-changes" title="Link to this heading">¶</a></h3>
+<section id="id15">
+<h3>Contributor-facing changes<a class="headerlink" href="#id15" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/538">#538</a>): Update psycopg to 3.3.6</p></li>
 <li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/538">#538</a>): Update djlint to 1.46.2</p></li>
@@ -279,8 +329,8 @@ with advance notice in the <strong>Deprecations</strong> section of releases.</p
 </section>
 <section id="djapi-library-0-3-6-2026-09-13">
 <h2>djapi-library 0.3.6 (2026-09-13)<a class="headerlink" href="#djapi-library-0-3-6-2026-09-13" title="Link to this heading">¶</a></h2>
-<section id="id15">
-<h3>Contributor-facing changes<a class="headerlink" href="#id15" title="Link to this heading">¶</a></h3>
+<section id="id24">
+<h3>Contributor-facing changes<a class="headerlink" href="#id24" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/576">#576</a>): Initial zizmor remediation. Pin GitHub actions to hashes.</p></li>
 <li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/579">#579</a>): Update nox to 2026.8.17</p></li>
@@ -309,14 +359,14 @@ with advance notice in the <strong>Deprecations</strong> section of releases.</p
 </section>
 <section id="djapi-library-0-3-5-2026-08-03">
 <h2>djapi-library 0.3.5 (2026-08-03)<a class="headerlink" href="#djapi-library-0-3-5-2026-08-03" title="Link to this heading">¶</a></h2>
-<section id="id33">
-<h3>Improved documentation<a class="headerlink" href="#id33" title="Link to this heading">¶</a></h3>
+<section id="id42">
+<h3>Improved documentation<a class="headerlink" href="#id42" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/553">#553</a>): Add towncrier 25.8.0.</p></li>
 </ul>
 </section>
-<section id="id35">
-<h3>New features<a class="headerlink" href="#id35" title="Link to this heading">¶</a></h3>
+<section id="id44">
+<h3>New features<a class="headerlink" href="#id44" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/578">#578</a>): Upgrade to Django 6.0.8</p></li>
 </ul>
@@ -324,8 +374,8 @@ with advance notice in the <strong>Deprecations</strong> section of releases.</p
 </section>
 <section id="djapi-library-0-3-4-2026-07-31">
 <h2>djapi-library 0.3.4 (2026-07-31)<a class="headerlink" href="#djapi-library-0-3-4-2026-07-31" title="Link to this heading">¶</a></h2>
-<section id="id37">
-<h3>Contributor-facing changes<a class="headerlink" href="#id37" title="Link to this heading">¶</a></h3>
+<section id="id46">
+<h3>Contributor-facing changes<a class="headerlink" href="#id46" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>: Add Python 3.14 support.</p></li>
 <li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/574">#574</a>): Rename default branch to main.</p></li>
@@ -337,8 +387,8 @@ with advance notice in the <strong>Deprecations</strong> section of releases.</p
 <li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/568">#568</a>): Drop support for Python 3.11.</p></li>
 </ul>
 </section>
-<section id="id40">
-<h3>New features<a class="headerlink" href="#id40" title="Link to this heading">¶</a></h3>
+<section id="id49">
+<h3>New features<a class="headerlink" href="#id49" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/537">#537</a>): Upgrade Django to 6.0.7.</p></li>
 </ul>
@@ -346,34 +396,34 @@ with advance notice in the <strong>Deprecations</strong> section of releases.</p
 </section>
 <section id="djapi-library-0-3-3-2025-05-08">
 <h2>djapi-library 0.3.3 (2025-05-08)<a class="headerlink" href="#djapi-library-0-3-3-2025-05-08" title="Link to this heading">¶</a></h2>
-<section id="id42">
-<h3>Contributor-facing changes<a class="headerlink" href="#id42" title="Link to this heading">¶</a></h3>
+<section id="id51">
+<h3>Contributor-facing changes<a class="headerlink" href="#id51" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/483">#483</a>): Update Poetry to 2.1.2.</p></li>
 </ul>
 </section>
-<section id="id44">
-<h3>Deprecations (removal in next major release)<a class="headerlink" href="#id44" title="Link to this heading">¶</a></h3>
+<section id="id53">
+<h3>Deprecations (removal in next major release)<a class="headerlink" href="#id53" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/478">#478</a>): Drop Python 3.10 support.</p></li>
 </ul>
 </section>
-<section id="id46">
-<h3>Improved documentation<a class="headerlink" href="#id46" title="Link to this heading">¶</a></h3>
+<section id="id55">
+<h3>Improved documentation<a class="headerlink" href="#id55" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/477">#477</a>): Update Sphinx to 8.2.3.</p></li>
 </ul>
 </section>
-<section id="id48">
-<h3>New features<a class="headerlink" href="#id48" title="Link to this heading">¶</a></h3>
+<section id="id57">
+<h3>New features<a class="headerlink" href="#id57" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/422">#422</a>): Upgrade Docker image to Python 3.13</p></li>
 <li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/482">#482</a>): Upgrade Django Rest Framework to 3.16.0.</p></li>
 <li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/484">#484</a>): Upgrade Django to 5.2.</p></li>
 </ul>
 </section>
-<section id="id52">
-<h3>Security updated<a class="headerlink" href="#id52" title="Link to this heading">¶</a></h3>
+<section id="id61">
+<h3>Security updated<a class="headerlink" href="#id61" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/487">#487</a>): Replace safety package with pip-audit.</p></li>
 </ul>
@@ -381,15 +431,15 @@ with advance notice in the <strong>Deprecations</strong> section of releases.</p
 </section>
 <section id="djapi-library-0-3-2-2025-01-24">
 <h2>djapi-library 0.3.2 (2025-01-24)<a class="headerlink" href="#djapi-library-0-3-2-2025-01-24" title="Link to this heading">¶</a></h2>
-<section id="id54">
-<h3>Contributor-facing changes<a class="headerlink" href="#id54" title="Link to this heading">¶</a></h3>
+<section id="id63">
+<h3>Contributor-facing changes<a class="headerlink" href="#id63" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/416">#416</a>): Add support for Python 3.13</p></li>
 <li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/460">#460</a>): Re-build pyproject for Poetry 2.0.</p></li>
 </ul>
 </section>
-<section id="id57">
-<h3>New features<a class="headerlink" href="#id57" title="Link to this heading">¶</a></h3>
+<section id="id66">
+<h3>New features<a class="headerlink" href="#id66" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/451">#451</a>): Upgrade Django to 5.1.4</p></li>
 </ul>
@@ -397,28 +447,28 @@ with advance notice in the <strong>Deprecations</strong> section of releases.</p
 </section>
 <section id="djapi-library-0-3-0-2023-12-25">
 <h2>djapi-library 0.3.0 (2023-12-25)<a class="headerlink" href="#djapi-library-0-3-0-2023-12-25" title="Link to this heading">¶</a></h2>
-<section id="id59">
-<h3>Contributor-facing changes<a class="headerlink" href="#id59" title="Link to this heading">¶</a></h3>
+<section id="id68">
+<h3>Contributor-facing changes<a class="headerlink" href="#id68" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/169">#169</a>): Migrate to non-root Docker user &amp; venv.</p></li>
 <li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/173">#173</a>): Update Python to 3.12.0.</p></li>
 <li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/323">#323</a>): Upgrade Poetry to 1.7.1.</p></li>
 </ul>
 </section>
-<section id="id63">
-<h3>Deprecations (removal in next major release)<a class="headerlink" href="#id63" title="Link to this heading">¶</a></h3>
+<section id="id72">
+<h3>Deprecations (removal in next major release)<a class="headerlink" href="#id72" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/320">#320</a>): Drop support for Python 3.9.</p></li>
 </ul>
 </section>
-<section id="id65">
-<h3>Improved documentation<a class="headerlink" href="#id65" title="Link to this heading">¶</a></h3>
+<section id="id74">
+<h3>Improved documentation<a class="headerlink" href="#id74" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>: Update Sphinx theme to Furo</p></li>
 </ul>
 </section>
-<section id="id66">
-<h3>New features<a class="headerlink" href="#id66" title="Link to this heading">¶</a></h3>
+<section id="id75">
+<h3>New features<a class="headerlink" href="#id75" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/331">#331</a>): Upgrade to Django 5.0.</p></li>
 </ul>
@@ -426,8 +476,8 @@ with advance notice in the <strong>Deprecations</strong> section of releases.</p
 </section>
 <section id="djapi-library-0-2-0-2023-05-16">
 <h2>djapi-library 0.2.0 (2023-05-16)<a class="headerlink" href="#djapi-library-0-2-0-2023-05-16" title="Link to this heading">¶</a></h2>
-<section id="id68">
-<h3>Contributor-facing changes<a class="headerlink" href="#id68" title="Link to this heading">¶</a></h3>
+<section id="id77">
+<h3>Contributor-facing changes<a class="headerlink" href="#id77" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/206">#206</a>): Install ruff. Drop flake8-* packages.</p></li>
 </ul>
@@ -435,8 +485,8 @@ with advance notice in the <strong>Deprecations</strong> section of releases.</p
 </section>
 <section id="djapi-library-0-1-0-2023-05-08">
 <h2>djapi-library 0.1.0 (2023-05-08)<a class="headerlink" href="#djapi-library-0-1-0-2023-05-08" title="Link to this heading">¶</a></h2>
-<section id="id70">
-<h3>Contributor-facing changes<a class="headerlink" href="#id70" title="Link to this heading">¶</a></h3>
+<section id="id79">
+<h3>Contributor-facing changes<a class="headerlink" href="#id79" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>: Add django-debug-toolbar.</p></li>
 <li><p>: Implement Swagger-UI API View</p></li>
@@ -450,8 +500,8 @@ with advance notice in the <strong>Deprecations</strong> section of releases.</p
 <li><p>(<a class="reference external" href="https://github.com/kevinbowen777/djapi-library/issues/3">#3</a>): Implement nox for testing</p></li>
 </ul>
 </section>
-<section id="id77">
-<h3>Improved documentation<a class="headerlink" href="#id77" title="Link to this heading">¶</a></h3>
+<section id="id86">
+<h3>Improved documentation<a class="headerlink" href="#id86" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>: Add Sphinx for documentation</p></li>
 </ul>
@@ -459,14 +509,14 @@ with advance notice in the <strong>Deprecations</strong> section of releases.</p
 </section>
 <section id="djapi-library-0-0-1-2022-07-19">
 <h2>djapi-library 0.0.1 (2022-07-19)<a class="headerlink" href="#djapi-library-0-0-1-2022-07-19" title="Link to this heading">¶</a></h2>
-<section id="id78">
-<h3>Contributor-facing changes<a class="headerlink" href="#id78" title="Link to this heading">¶</a></h3>
+<section id="id87">
+<h3>Contributor-facing changes<a class="headerlink" href="#id87" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>: Add support for Python 3.10</p></li>
 </ul>
 </section>
-<section id="id79">
-<h3>New features<a class="headerlink" href="#id79" title="Link to this heading">¶</a></h3>
+<section id="id88">
+<h3>New features<a class="headerlink" href="#id88" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>: Build Docker support for Heroku deployment.</p></li>
 <li><p>: Support Django 4.0.6</p></li>
@@ -495,14 +545,14 @@ with advance notice in the <strong>Deprecations</strong> section of releases.</p
               </div>
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
-          <a class="prev-page" href="index.html">
+          <a class="prev-page" href="testing/create_book_list.html">
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">Home</div>
+                <div class="title">Add book list</div>
                 
               </div>
             </a>
@@ -516,7 +566,7 @@ with advance notice in the <strong>Deprecations</strong> section of releases.</p
             
             <a href="https://github.com/pradyunsg/furo">Furo</a>
             <div class="last-updated">
-              Last updated on Oct 04, 2026</div>
+              Last updated on Oct 18, 2026</div>
           </div>
           <div class="right-details">
             
@@ -538,60 +588,65 @@ with advance notice in the <strong>Deprecations</strong> section of releases.</p
           <div class="toc-tree">
             <ul>
 <li><a class="reference internal" href="#">Changelog</a><ul>
-<li><a class="reference internal" href="#djapi-library-0-3-7-2026-10-04">djapi-library 0.3.7 (2026-10-04)</a><ul>
-<li><a class="reference internal" href="#improved-documentation">Improved documentation</a></li>
+<li><a class="reference internal" href="#djapi-library-0-3-8-2026-10-18">djapi-library 0.3.8 (2026-10-18)</a><ul>
 <li><a class="reference internal" href="#security-updated">Security updated</a></li>
 <li><a class="reference internal" href="#contributor-facing-changes">Contributor-facing changes</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#djapi-library-0-3-6-2026-09-13">djapi-library 0.3.6 (2026-09-13)</a><ul>
+<li><a class="reference internal" href="#djapi-library-0-3-7-2026-10-04">djapi-library 0.3.7 (2026-10-04)</a><ul>
+<li><a class="reference internal" href="#improved-documentation">Improved documentation</a></li>
+<li><a class="reference internal" href="#id13">Security updated</a></li>
 <li><a class="reference internal" href="#id15">Contributor-facing changes</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#djapi-library-0-3-6-2026-09-13">djapi-library 0.3.6 (2026-09-13)</a><ul>
+<li><a class="reference internal" href="#id24">Contributor-facing changes</a></li>
 <li><a class="reference internal" href="#new-features">New features</a></li>
 </ul>
 </li>
 <li><a class="reference internal" href="#djapi-library-0-3-5-2026-08-03">djapi-library 0.3.5 (2026-08-03)</a><ul>
-<li><a class="reference internal" href="#id33">Improved documentation</a></li>
-<li><a class="reference internal" href="#id35">New features</a></li>
+<li><a class="reference internal" href="#id42">Improved documentation</a></li>
+<li><a class="reference internal" href="#id44">New features</a></li>
 </ul>
 </li>
 <li><a class="reference internal" href="#djapi-library-0-3-4-2026-07-31">djapi-library 0.3.4 (2026-07-31)</a><ul>
-<li><a class="reference internal" href="#id37">Contributor-facing changes</a></li>
+<li><a class="reference internal" href="#id46">Contributor-facing changes</a></li>
 <li><a class="reference internal" href="#deprecations-removal-in-next-major-release">Deprecations (removal in next major release)</a></li>
-<li><a class="reference internal" href="#id40">New features</a></li>
+<li><a class="reference internal" href="#id49">New features</a></li>
 </ul>
 </li>
 <li><a class="reference internal" href="#djapi-library-0-3-3-2025-05-08">djapi-library 0.3.3 (2025-05-08)</a><ul>
-<li><a class="reference internal" href="#id42">Contributor-facing changes</a></li>
-<li><a class="reference internal" href="#id44">Deprecations (removal in next major release)</a></li>
-<li><a class="reference internal" href="#id46">Improved documentation</a></li>
-<li><a class="reference internal" href="#id48">New features</a></li>
-<li><a class="reference internal" href="#id52">Security updated</a></li>
+<li><a class="reference internal" href="#id51">Contributor-facing changes</a></li>
+<li><a class="reference internal" href="#id53">Deprecations (removal in next major release)</a></li>
+<li><a class="reference internal" href="#id55">Improved documentation</a></li>
+<li><a class="reference internal" href="#id57">New features</a></li>
+<li><a class="reference internal" href="#id61">Security updated</a></li>
 </ul>
 </li>
 <li><a class="reference internal" href="#djapi-library-0-3-2-2025-01-24">djapi-library 0.3.2 (2025-01-24)</a><ul>
-<li><a class="reference internal" href="#id54">Contributor-facing changes</a></li>
-<li><a class="reference internal" href="#id57">New features</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#djapi-library-0-3-0-2023-12-25">djapi-library 0.3.0 (2023-12-25)</a><ul>
-<li><a class="reference internal" href="#id59">Contributor-facing changes</a></li>
-<li><a class="reference internal" href="#id63">Deprecations (removal in next major release)</a></li>
-<li><a class="reference internal" href="#id65">Improved documentation</a></li>
+<li><a class="reference internal" href="#id63">Contributor-facing changes</a></li>
 <li><a class="reference internal" href="#id66">New features</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#djapi-library-0-2-0-2023-05-16">djapi-library 0.2.0 (2023-05-16)</a><ul>
+<li><a class="reference internal" href="#djapi-library-0-3-0-2023-12-25">djapi-library 0.3.0 (2023-12-25)</a><ul>
 <li><a class="reference internal" href="#id68">Contributor-facing changes</a></li>
+<li><a class="reference internal" href="#id72">Deprecations (removal in next major release)</a></li>
+<li><a class="reference internal" href="#id74">Improved documentation</a></li>
+<li><a class="reference internal" href="#id75">New features</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#djapi-library-0-2-0-2023-05-16">djapi-library 0.2.0 (2023-05-16)</a><ul>
+<li><a class="reference internal" href="#id77">Contributor-facing changes</a></li>
 </ul>
 </li>
 <li><a class="reference internal" href="#djapi-library-0-1-0-2023-05-08">djapi-library 0.1.0 (2023-05-08)</a><ul>
-<li><a class="reference internal" href="#id70">Contributor-facing changes</a></li>
-<li><a class="reference internal" href="#id77">Improved documentation</a></li>
+<li><a class="reference internal" href="#id79">Contributor-facing changes</a></li>
+<li><a class="reference internal" href="#id86">Improved documentation</a></li>
 </ul>
 </li>
 <li><a class="reference internal" href="#djapi-library-0-0-1-2022-07-19">djapi-library 0.0.1 (2022-07-19)</a><ul>
-<li><a class="reference internal" href="#id78">Contributor-facing changes</a></li>
-<li><a class="reference internal" href="#id79">New features</a></li>
+<li><a class="reference internal" href="#id87">Contributor-facing changes</a></li>
+<li><a class="reference internal" href="#id88">New features</a></li>
 <li><a class="reference internal" href="#miscellaneous-internal-changes">Miscellaneous internal changes</a></li>
 </ul>
 </li>
@@ -606,7 +661,7 @@ with advance notice in the <strong>Deprecations</strong> section of releases.</p
       
     </aside>
   </div>
-</div><script src="_static/documentation_options.js?v=29d04658"></script>
+</div><script src="_static/documentation_options.js?v=c1cae59a"></script>
     <script src="_static/doctools.js?v=fd6eb6e6"></script>
     <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script src="_static/scripts/furo.js?v=46bd48cc"></script>
