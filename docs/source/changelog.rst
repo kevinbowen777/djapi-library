@@ -27,6 +27,40 @@ with advance notice in the **Deprecations** section of releases.
 
 .. towncrier release notes start
 
+djapi-library 0.3.9 (2026-11-05)
+================================
+
+Security updated
+----------------
+
+-  (`#596 <https://github.com/kevinbowen777/djapi-library/issues/596>`_): Update pip to 26.2.2
+
+-  (`#596 <https://github.com/kevinbowen777/djapi-library/issues/596>`_): Update certifi to 2026.10.23
+
+-  (`#596 <https://github.com/kevinbowen777/djapi-library/issues/596>`_): Update django-allauth to 65.21.1
+
+-  (`#596 <https://github.com/kevinbowen777/djapi-library/issues/596>`_): Update .python-version with 3.14.10, 3.13.18, 3.12.16
+
+-  (`#596 <https://github.com/kevinbowen777/djapi-library/issues/596>`_): Update pillow to 13.0.0
+
+-  (`#597 <https://github.com/kevinbowen777/djapi-library/issues/597>`_): Update Django to 6.1.3
+
+-  (`#597 <https://github.com/kevinbowen777/djapi-library/issues/597>`_): Update psycopg to 3.3.8
+
+
+Improved documentation
+----------------------
+
+-  (`#596 <https://github.com/kevinbowen777/djapi-library/issues/596>`_): Remove legacy license classifier
+
+
+Contributor-facing changes
+--------------------------
+
+-  (`#596 <https://github.com/kevinbowen777/djapi-library/issues/596>`_): Update djlint to 1.49.9
+
+-  (`#596 <https://github.com/kevinbowen777/djapi-library/issues/596>`_): Update nox to 2026.10.20
+
 djapi-library 0.3.8 (2026-10-18)
 ================================
 
